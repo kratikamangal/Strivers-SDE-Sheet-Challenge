@@ -117,15 +117,16 @@
 //         return maxi_sum;
 //     }
 
-// Question --> Stock buy and sell
-// int maxi_sum=INT_MIN;
-//         int sum=0;
-//         for(int i=0;i<nums.size();i++)
-//         {
-//             sum+=nums[i];
-//             maxi_sum=max(maxi_sum,sum);
-//             if(sum<0)
-//             sum=0;
-//         }
-//         return maxi_sum;
-//     }
+Question --> Stock buy and sell
+int maxi_sum=INT_MIN;
+        int sum=0;
+        for(int i=0;i<nums.size();i++)
+        {
+            sum+=nums[i];
+            maxi_sum=max(maxi_sum,sum);
+            if(sum<0)
+            sum=0;
+        }
+        return maxi_sum;
+    }
+
